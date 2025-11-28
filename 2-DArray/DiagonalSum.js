@@ -1,6 +1,15 @@
 // ✅ Time Complexity → O(n)
 // ✅ Space Complexity → O(1)
 
+// 💡 Simple logic for revision
+// 1️⃣ Loop through each row
+// 2️⃣ Add:
+
+// matrix[i][i] → left-to-right diagonal (↘)
+
+// matrix[i][n - 1 - i] → right-to-left diagonal (↙)
+// 3️⃣ If n is odd → subtract center element (added twice)
+
 const Diagonal =(arr)=>{
    let n = arr.length;
    let sum =0;
