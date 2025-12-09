@@ -33,3 +33,13 @@ function isPowerOfTwo(n) {
 
 console.log(isPowerOfTwo(1)); // true
 console.log(isPowerOfTwo(10)); // false
+
+// | n  | Binary | Power of 2? |
+// | -- | ------ | ----------- |
+// | 1  | 0001   | ✔ Yes       |
+// | 2  | 0010   | ✔ Yes       |
+// | 3  | 0011   | ❌ No        |
+// | 4  | 0100   | ✔ Yes       |
+// | 5  | 0101   | ❌ No        |
+// | 8  | 1000   | ✔ Yes       |
+// | 12 | 1100   | ❌ No        |
