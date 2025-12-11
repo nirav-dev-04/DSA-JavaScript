@@ -14,7 +14,7 @@ const removeDuplicates = (arr) =>{
       arr[i] =arr[j]; // store the unique element
      }
    }
-   return arr[i]; // length of unique element
+   return i+1; // length of unique element
 }
   let arr = [1,1,2,2,3,4,4,5];
   console.log("the length of unique element is: ",removeDuplicates(arr));
