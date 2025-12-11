@@ -8,6 +8,9 @@ LOGIC: Check if Array is Sorted using Recursion
 5. This continues until the base case is reached.
 */
 
+// “We compare adjacent elements recursively and move forward. The recurrence is T(n) = T(n−1) + 1,
+//  so time and space complexity are both O(n).”
+
 const isSorted =(arr , index=0)=>{
    //base case
    let n = arr.length -1;
